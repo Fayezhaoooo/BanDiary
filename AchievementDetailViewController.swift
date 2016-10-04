@@ -60,6 +60,7 @@ class AchievementDetailViewController: UIViewController, UITextFieldDelegate, UI
     }
     
     // QBImagePickerControllerDelegate Methods
+    // MESS.!!!
     func qb_imagePickerController(imagePickerController: QBImagePickerController!, didFinishPickingAssets assets: [AnyObject]!) {
         var selectedImages = [UIImage]()
         for asset in assets {
@@ -120,6 +121,7 @@ class AchievementDetailViewController: UIViewController, UITextFieldDelegate, UI
 //    }
     
     // CollectionView Data Source
+    // TOTAL MESS HERE
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
